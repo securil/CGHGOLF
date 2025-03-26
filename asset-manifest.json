@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CGHGOLF/static/css/main.53c0c84c.css",
+    "main.js": "/CGHGOLF/static/js/main.650af4a2.js",
+    "static/js/453.d88f50f4.chunk.js": "/CGHGOLF/static/js/453.d88f50f4.chunk.js",
+    "index.html": "/CGHGOLF/index.html",
+    "main.53c0c84c.css.map": "/CGHGOLF/static/css/main.53c0c84c.css.map",
+    "main.650af4a2.js.map": "/CGHGOLF/static/js/main.650af4a2.js.map",
+    "453.d88f50f4.chunk.js.map": "/CGHGOLF/static/js/453.d88f50f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53c0c84c.css",
+    "static/js/main.650af4a2.js"
+  ]
+}
