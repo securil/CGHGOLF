@@ -1,0 +1,75 @@
+/* 기본 앱 스타일 */
+.App {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 공통 컨테이너 스타일 */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* 반응형 조정 */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 테이블 기본 스타일 (Tailwind CSS와 함께 사용 가능) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 필요한 경우 Tailwind CSS 클래스를 재정의하는 사용자 정의 스타일 */
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* 네비게이션 스타일 */
+.nav-link {
+  color: #1f2937;
+  font-weight: 500;
+  padding: 0.5rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.nav-link.active {
+  color: #3b82f6;
+  border-bottom: 2px solid #3b82f6;
+}

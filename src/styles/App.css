@@ -1,0 +1,59 @@
+/* App 특화 스타일 */
+
+/* 페이지 전환 애니메이션 */
+.page-transition-enter {
+    opacity: 0;
+  }
+  .page-transition-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  .page-transition-exit {
+    opacity: 1;
+  }
+  .page-transition-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
+  /* 골프 특화 스타일 */
+  .scoreboard {
+    @apply bg-white rounded-lg shadow-md p-4 border border-gray-200;
+  }
+  
+  .scoreboard-header {
+    @apply bg-chunggu-green-600 text-white font-bold py-2 px-4 rounded-t-lg;
+  }
+  
+  .scoreboard-row {
+    @apply border-b border-gray-200 py-2 px-4 flex justify-between items-center;
+  }
+  
+  .scoreboard-row:last-child {
+    @apply border-b-0;
+  }
+  
+  /* 홀 디스플레이 */
+  .hole-display {
+    @apply flex items-center justify-center w-8 h-8 rounded-full text-white font-bold;
+  }
+  
+  .hole-par {
+    @apply bg-gray-500;
+  }
+  
+  .hole-birdie {
+    @apply bg-chunggu-blue-500;
+  }
+  
+  .hole-eagle {
+    @apply bg-chunggu-blue-700;
+  }
+  
+  .hole-bogey {
+    @apply bg-orange-500;
+  }
+  
+  .hole-double-bogey {
+    @apply bg-red-500;
+  }
